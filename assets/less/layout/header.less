@@ -1,0 +1,235 @@
+.header {
+  display: block;
+  width: 100%;
+  color: @header-text-color;
+  background: transparent !important;
+
+  .top_layer {
+    display: block;
+    height: 55px !important;
+    line-height: 55px !important;
+    background: @main-color2;
+
+    &__list-info {
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        gap: 25px;
+
+        li {
+          color: #fff;
+          list-style: none;
+          font-size: 12px;
+          font-family: @noto;
+          font-weight: 400;
+
+          a {
+            color: #fff;
+            list-style: none;
+            font-size: 12px;
+            font-family: @noto;
+            font-weight: 400;
+
+            &:hover {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    &__socials {
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: end;
+        gap: 15px;
+
+        li {
+          color: #fff;
+          list-style: none;
+          font-size: 18px;
+          font-family: @noto;
+          font-weight: 400;
+
+          a {
+            color: #fff;
+            list-style: none;
+            font-size: 18px;
+            font-family: @noto;
+            font-weight: 400;
+
+            &:hover {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    h1 {
+      font-family: @noto;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 73px !important;
+      text-align: center;
+      text-transform: capitalize;
+      margin: 0 !important;
+    }
+
+    .hamburger-wrap {
+      display: block;
+      float: right;
+      width: 104px;
+      height: 73px;
+      border-left: 1px solid #cccccc;
+      .mix-center-text();
+
+      &-inner {
+        display: block;
+        width: 100%;
+        .mix-center-text();
+
+        #hamburger-menu {
+          display: block;
+          width: 42px;
+          height: 42px;
+          background-image: url('@{assetsUrl}images/hamburger.png');
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          transition: none;
+        }
+
+        .hamburger-menu-close {
+          background-position: 0 -42px;
+        }
+
+        .hamburger-menu-open {
+          background-position: 0 0;
+        }
+      }
+    }
+  }
+
+  .middle_layer {
+    display: block;
+    height: 73px;
+    line-height: 73px;
+    background: rgba(0, 42, 92, 0.9);
+
+    .content-popup-wrap {
+      text-align: center;
+
+      span.contact-popup-intro {
+        display: inline-block;
+        font-family: @noto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.1em;
+        color:#fff;
+        margin-right: 16px;
+      }
+
+      a#contact-popup-btn {
+        display: inline-block;
+      }
+    }
+  }
+
+  .bottom_layer {
+    padding: 15px 0;
+  }
+
+  &__content {
+    //min-height: @header__content-height;
+    //line-height: @header__content-height;
+    position: relative;
+
+    &-wrap {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  }
+
+  &-wrap {
+    &__bundle {
+      display: none;
+    }
+
+    &--sticky-header {
+      .header-wrap {
+        &__bundle {
+          display: block;
+        }
+      }
+
+      .header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        .left(0);
+        z-index: 9999;
+
+        &__content {
+          min-height: 0;
+        }
+      }
+    }
+  }
+}
+
+.admin-bar {
+  .header-wrap {
+    &--sticky-header {
+      .header {
+        top: 32px;
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: @responsive-breakpoint2) {
+  .header {
+    &__content {
+      text-align: center;
+    }
+  }
+}
+
+// wordpress change height for admin bar
+@media screen and (max-width: 782px) {
+  .admin-bar {
+    .header-wrap--sticky-header {
+      .header {
+        top: 46px;
+      }
+    }
+  }
+}
+
+@media (max-width: @mobile-menu-breakpoint) {
+  .header-wrap--sticky-header {
+    .header {
+      width: 100%;
+      position: static;
+      top: auto;
+      .left(auto);
+      z-index: auto;
+      clear: both;
+    }
+
+    .header-wrap {
+      &__bundle {
+        display: none;
+      }
+    }
+  }
+}
