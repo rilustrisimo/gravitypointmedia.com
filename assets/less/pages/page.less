@@ -968,6 +968,10 @@ body {
         height: 50px;
         border: 1px solid #cecece;
         padding-left: 20px;
+        color: @main-color1;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: left;
 
         option {
             color: @main-color1;
@@ -976,6 +980,22 @@ body {
             text-align: left;
         }
     }
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M7.25 12.25a.25.25 0 0 1-.177-.073l-4.5-4.5a.25.25 0 0 1 0-.354l.5-.5a.25.25 0 0 1 .354 0L8 10.793l3.068-3.072a.25.25 0 0 1 .354 0l.5.5a.25.25 0 0 1 0 .354l-4.5 4.5a.25.25 0 0 1-.177.073z"></path></svg>'); /* Font Awesome chevron down icon */
+        background-repeat: no-repeat;
+        background-position: right center; /* Adjust the position of the icon (change 'right' to 'left' if needed) */
+        padding-right: 20px; /* Add some padding to the right to make space for the icon */
+        padding-left: 20px; /* Add some padding to the left to adjust alignment */
+      }
+      
+      /* Style the arrow icon */
+      select::-ms-expand {
+        display: none; /* Hide arrow icon in IE */
+      }
 
     textarea {
         max-width: 99.5%;
