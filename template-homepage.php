@@ -140,7 +140,7 @@ if ( have_posts() ) : ?>
 				<div class="container-fluid section_5" >
 					<div class="container items">
 						<div class="row">
-							<div class="col-12 col-md-5">
+							<div class="col-12 col-md-5 details">
 								<h3>// CONTACT US</h3>
 								<h1>Connect With Us</h1>
 								<p>Unlock the gateway to enhanced branding, marketing strategies, online presence, and business automation by reaching out to Gravity Point Media. </p>
