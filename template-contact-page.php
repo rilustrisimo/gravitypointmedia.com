@@ -52,7 +52,7 @@ if ( have_posts() ) : ?>
 								<div><i class="fa-regular fa-comments"></i></div>
 							</div>
 							<div class="deets">
-								<div class="label">Mail Address:</div>
+								<div class="label">E-Mail Address:</div>
 								<div class="value"><a href="mailto:info@gravitypointmedia.com" target="_blank">info@gravitypointmedia.com</a></div>
 							</div>
 						</li>
