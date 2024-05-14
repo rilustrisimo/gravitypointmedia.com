@@ -30,8 +30,8 @@ if ( $is_sticky_header ) {
 					</div><!-- .header__content -->
 					<div class="col-md-6 top_layer__socials">
 						<ul>
-							<li><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/gravitypointmedia" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/gravitypointmedia" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 						</ul>
 					</div><!-- .header__content -->
 					<div class="clearfix"></div>

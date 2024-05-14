@@ -53,8 +53,8 @@ do_action('eyor_after_main_content');
 				<div class="col-md-2">
 					<h2>Follow Us</h2>
 					<ul class="socials">
-						<li><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/gravitypointmedia" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/gravitypointmedia" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 					</ul>
 				</div>
 			</div>
