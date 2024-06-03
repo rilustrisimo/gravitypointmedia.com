@@ -43,7 +43,8 @@ if ( have_posts() ) : ?>
 						<div class="row">
 							<?php $section2items = $fields['section_2']['items']; ?>
 							<?php foreach($section2items as $item): ?>
-							<div class="col-md-4 item">
+							<?php $colclass = ($item['title'] == "Business Process Automation")?"col-md-12":"col-md-4"; ?>
+							<div class="<?php echo $colclass; ?> item">
 								<div class="item__container">
 									<div class="item__image-container">
 										<div class="item__image">
