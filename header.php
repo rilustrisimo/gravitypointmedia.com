@@ -24,7 +24,7 @@ if ( $is_sticky_header ) {
 					<div class="col-md-6 top_layer__list-info">
 						<ul>
 							<li class="hide-mob"><i class="fa-solid fa-clock"></i> Monday - Friday 9am - 5pm</li>
-							<li><i class="fa-solid fa-phone"></i> <a href="tel:+18883889875" target="_blank">+1 888 388 9875</a></li>
+							<li><i class="fa-solid fa-phone"></i> <a href="tel:+15182074215" target="_blank">+1 518 207 4215</a></li>
 							<li><i class="fa-solid fa-paper-plane"></i> <a href="mailto:info@gravitypointmedia.com" target="_blank">info@gravitypointmedia.com</a></li>
 						</ul>
 					</div><!-- .header__content -->

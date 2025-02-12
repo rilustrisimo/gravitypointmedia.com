@@ -152,8 +152,8 @@ if ( have_posts() ) : ?>
 											<div><i class="fa-solid fa-location-pin"></i></div>
 										</div>
 										<div class="deets">
-											<div class="label">Office Address:</div>
-											<div class="value">155 Willowbrook Blvd. Ste 110, Wayne, New Jersey 07470</div>
+											<div class="label">PO BOX:</div>
+											<div class="value">PO Box 3056, Wallington, NJ 07057</div>
 										</div>
 									</li>
 									<li>
@@ -162,7 +162,7 @@ if ( have_posts() ) : ?>
 										</div>
 										<div class="deets">
 											<div class="label">Phone Number:</div>
-											<div class="value"><a href="tel:+18883889875" target="_blank">+1 888 388 9875</a></div>
+											<div class="value"><a href="tel:+15182074215" target="_blank">+1 518 207 4215</a></div>
 										</div>
 									</li>
 									<li>
