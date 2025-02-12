@@ -46,8 +46,8 @@ do_action('eyor_after_main_content');
 				</div>
 				<div class="col-md-4">
 					<h2>Contact Us</h2>
-					<p>PO Box 3056, Wallington,<br>NJ 07057</p>
-					<p><i class="fa-solid fa-phone"></i> <a href="tel:+15182074215" target="_blank">+1 518 207 4215</a></p>
+					<p>155 Willowbrook Blvd. Ste 110,<br>Wayne, New Jersey 07470</p>
+					<p><i class="fa-solid fa-phone"></i> <a href="tel:+18883889875" target="_blank">+1 888 388 9875</a></p>
 					<p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:info@gravitypointmedia.com" target="_blank">info@gravitypointmedia.com</a></p>
 				</div>
 				<div class="col-md-2">
