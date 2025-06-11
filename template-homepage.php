@@ -171,7 +171,7 @@ if ( have_posts() ) : ?>
 										</div>
 										<div class="deets">
 											<div class="label">Phone Number:</div>
-											<div class="value"><a href="tel:+15182074215" target="_blank">+1 518 207 4215</a></div>
+											<div class="value"><a href="tel:+18482028782" target="_blank">+1 848 202 8782</a></div>
 										</div>
 									</li>
 									<li>

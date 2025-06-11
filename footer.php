@@ -47,7 +47,7 @@ do_action('eyor_after_main_content');
 				<div class="col-md-4">
 					<h2>Contact Us</h2>
 					<p>155 Willowbrook Blvd. Ste 110,<br>Wayne, New Jersey 07470</p>
-					<p><i class="fa-solid fa-phone"></i> <a href="tel:+15182074215" target="_blank">+1 518 207 4215</a></p>
+					<p><i class="fa-solid fa-phone"></i> <a href="tel:+18482028782" target="_blank">+1 848 202 8782</a></p>
 					<p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:info@gravitypointmedia.com" target="_blank">info@gravitypointmedia.com</a></p>
 				</div>
 				<div class="col-md-2">
