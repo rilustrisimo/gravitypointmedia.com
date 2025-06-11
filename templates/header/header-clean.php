@@ -36,6 +36,16 @@
 	src="https://www.facebook.com/tr?id=1211085560231161&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Meta Pixel Code -->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17186716657"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'AW-17186716657');
+	</script>
 </head>
 <body <?php body_class(); ?>>
 <!-- Inline content for the modal -->
